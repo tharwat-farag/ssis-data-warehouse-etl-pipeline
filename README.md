@@ -18,7 +18,7 @@ A complete Data Engineering project using SSIS, SQL Server, and Star Schema arch
 
 This project demonstrates the implementation of a complete **Data Warehouse & ETL Pipeline** using **SSIS** and **Microsoft SQL Server**.
 
-The solution extracts data from multiple sources, transforms and cleans the data, then loads it into a structured Data Warehouse designed using the **Star Schema** model.
+The solution extracts data from multiple sources, transforms and cleans the data, then loads it into a structured Data Warehouse designed using the Star Schema model.
 
 ---
 
@@ -58,6 +58,7 @@ Store descriptive business information:
 # 🔄 ETL Workflow
 
 ## 📥 Extract
+
 Data extracted from:
 - Excel Files
 - SQL Databases
@@ -65,6 +66,7 @@ Data extracted from:
 ---
 
 ## 🔧 Transform
+
 Data transformation operations include:
 - Data Cleaning
 - Handling NULL values
@@ -76,6 +78,7 @@ Data transformation operations include:
 ---
 
 ## 📤 Load
+
 Data loaded into:
 - Fact Tables
 - Dimension Tables
@@ -100,9 +103,7 @@ Data loaded into:
 SSIS-Sales-Project/
 │
 ├── images/
-│   ├── dataflow.png
-│   ├── controlflow.png
-│   └── schema.png
+│   └── dataflow.png
 │
 ├── Lab2/
 │   ├── SSIS Packages
@@ -130,16 +131,6 @@ The ETL pipeline handles:
 - Slowly Changing Dimension (SCD)
 - Historical data handling
 - Data loading into destination tables
-
----
-
-## 🔹 Control Flow
-_Add screenshot here_
-
----
-
-## 🔹 Star Schema
-_Add screenshot here_
 
 ---
 
